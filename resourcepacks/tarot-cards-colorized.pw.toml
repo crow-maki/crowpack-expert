@@ -1,0 +1,13 @@
+name = "Tarot Cards: Colorized"
+filename = "Tarot Cards Colorized 1.20.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "90fb0eb32cfae671d3299326e163bbf5ba3ce180"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4661245
+project-id = 892905
