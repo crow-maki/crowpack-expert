@@ -1,3 +1,3 @@
-# Crow's Baseline Modpack
+# Crow's Expert Modpack
 
-> a template modpack including optimization, storage, structure, and other general use mods.
+> an expert modpack for Minecraft 1.20.1
