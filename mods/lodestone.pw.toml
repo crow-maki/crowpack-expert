@@ -1,0 +1,13 @@
+name = "Lodestone"
+filename = "lodestone-1.20.1-1.6.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ae675b5569995ef0c3483b6edfb91ca7fe615544"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5568702
+project-id = 616457

@@ -1,0 +1,13 @@
+name = "DimensionalDoors"
+filename = "dimdoors-5.3.5-1.20.1-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8768f795296909f89319be790cbe0ef497207ff9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5375116
+project-id = 284876
