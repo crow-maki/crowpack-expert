@@ -1,0 +1,13 @@
+name = "Primal Magick"
+filename = "primalmagick-4.0.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "372fb997afc043a43bcf9dbe5b64911b0ac36353"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4965092
+project-id = 545271

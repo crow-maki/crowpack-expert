@@ -1180,6 +1180,11 @@ hash = "2d47877684bd91ad4c597b68bae4a8af3964011bfc0fd52e004469368f23b834"
 metafile = true
 
 [[files]]
+file = "mods/primal-magick.pw.toml"
+hash = "b15d766bd14d17f362ae4e563cb368390af16f1911ddbfa28c8b212eba8c17a2"
+metafile = true
+
+[[files]]
 file = "mods/prism-lib.pw.toml"
 hash = "2b0772879a1d43e6fc0d892dca4a85d360e813d5cd3907fc2ab42f345b146362"
 metafile = true
