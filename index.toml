@@ -5,6 +5,66 @@ file = "LICENSE"
 hash = "c14ff09d97082e2f8239d03c064cf22db62e9b4cf2c87b162f333cb4a15f161d"
 
 [[files]]
+file = "defaultconfigs/bucketlib-server.toml"
+hash = "2af9bed81bd04e2238ec74e0ae3626d11603eacf913ad1e0fc2bea5e03535c91"
+
+[[files]]
+file = "defaultconfigs/ceramicbucket-server.toml"
+hash = "ed642c665fcaddc9988c5ac8531ab6b6d2c22eff6c93eeee1b394826586a5422"
+
+[[files]]
+file = "defaultconfigs/ftbchunks/client-config.snbt"
+hash = "6d5592c9b61ca156d7901a1b2a626d9c1f5401ec6988e73fe01fab57c7df2260"
+
+[[files]]
+file = "defaultconfigs/ftbchunks/ftbchunks-world.snbt"
+hash = "cb9fcb6b7c72a876bc63e3e996cb8314463879f16349d2ee03ff93d020357fad"
+
+[[files]]
+file = "defaultconfigs/ftbessentials-server.snbt"
+hash = "3634df238ef03ebe4cb150fd6cf45eb6d475e1996c43073a1f0a263a4058e75b"
+
+[[files]]
+file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
+hash = "ab6bcad040f138406197f70cfe9a041832feaddf7e87954d9a5f4b13b6a962f9"
+
+[[files]]
+file = "defaultconfigs/ftbquests/client-config.snbt"
+hash = "4ce84f0da35036f810959086ea1043062993bf34ae704fc9cd4f1a67810090a6"
+
+[[files]]
+file = "defaultconfigs/ftbxmodcompat/ftbxmodcompat.snbt"
+hash = "9e5046ac0b9f6d27945b689657835bff24310aec7b11f7461c972b514d0e0658"
+
+[[files]]
+file = "kubejs/README.txt"
+hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/client_scripts/example.js"
+hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
+
+[[files]]
+file = "kubejs/config/client.properties"
+hash = "6770360a779b18c19264b8dcdd01f5316479b54ba3fe97768e828c2811efb793"
+
+[[files]]
+file = "kubejs/config/common.properties"
+hash = "af7e8ed3b94e1afa588f00ebc21a88f473e42a8483a39fd3dd6a55d909e2c9b8"
+
+[[files]]
+file = "kubejs/config/probe-settings.json"
+hash = "6044e840afa8539ddf365bff4c10c89006abae39355e9c44f65f2c1a4344e2e5"
+
+[[files]]
+file = "kubejs/server_scripts/example.js"
+hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
+
+[[files]]
+file = "kubejs/startup_scripts/example.js"
+hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
+
+[[files]]
 file = "mods/achievements-optimizer.pw.toml"
 hash = "2b55b29e563c7bdd3879e67e70816a48640071ba7927bb8294dcfaff94738677"
 metafile = true
@@ -1262,11 +1322,6 @@ metafile = true
 [[files]]
 file = "mods/roots-classic.pw.toml"
 hash = "af24988ff2d62239ac58836e24ad32373cc1923d4ff335a5c2087f325fef41c6"
-metafile = true
-
-[[files]]
-file = "mods/rubidium-extra.pw.toml"
-hash = "baa3801c6db3a574401e1a80477f79ad59c99015e7d8b7bed4ee476c0340145b"
 metafile = true
 
 [[files]]
