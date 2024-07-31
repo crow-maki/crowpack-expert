@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".packwizml.cache"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
 file = "LICENSE"
 hash = "c14ff09d97082e2f8239d03c064cf22db62e9b4cf2c87b162f333cb4a15f161d"
 
@@ -155,7 +151,7 @@ metafile = true
 
 [[files]]
 file = "mods/athena.pw.toml"
-hash = "2b4edecc8ef931390e61f700105c0e44f3c3b18d8d56df8efb8468a740232499"
+hash = "9638d8a308563842fd989970919a51f37ed1bcc82372bff47fc5a5c2e6de738e"
 metafile = true
 
 [[files]]
@@ -1520,7 +1516,7 @@ metafile = true
 
 [[files]]
 file = "mods/terrablender.pw.toml"
-hash = "570d8ea67256d5fdcbba9504cb77c49dac326c1116d84e3c48ae5a6113fdf8a7"
+hash = "97175f71f202d2d47a5828568c9f53339952a1c20b09378bdf5ad34557a8b4be"
 metafile = true
 
 [[files]]
