@@ -285,6 +285,11 @@ hash = "5b39080410fe098254ac39d7c675682c88cf743fdb4c05b76680f63a6fefd2f8"
 metafile = true
 
 [[files]]
+file = "mods/building-gadgets.pw.toml"
+hash = "8461b7344559646b5051a6d812e2cd4d43e62c8c817d17f0b2552f65306f43d4"
+metafile = true
+
+[[files]]
 file = "mods/caelus.pw.toml"
 hash = "5155ae1ca2c606df2001422a48cd167d2449160d5fe12a302753dee69af7fe92"
 metafile = true
@@ -487,6 +492,11 @@ metafile = true
 [[files]]
 file = "mods/dank-storage.pw.toml"
 hash = "579f04125d19438149e22f7eabf952a94af250af7295ee45214bc367dc26b4f6"
+metafile = true
+
+[[files]]
+file = "mods/dark-utilities.pw.toml"
+hash = "73d04361ac8c44b7128d1acf9bf4384f8e573ff3308065047f8675112540c9c9"
 metafile = true
 
 [[files]]
@@ -1215,6 +1225,11 @@ hash = "9189983623b36c936ee4e3c7ad70407899a2fe9fe31498a5b6e1b8a03913f23e"
 metafile = true
 
 [[files]]
+file = "mods/pig-pen-cipher.pw.toml"
+hash = "f896fefa7466845181da9db06ba4a89865f54b406ff3b1fb65773c66614b6f1b"
+metafile = true
+
+[[files]]
 file = "mods/placebo.pw.toml"
 hash = "0f807372e11d5a8a28266ab214fd243fa7558fe3f5a0cc6505090faede8c2dd6"
 metafile = true
@@ -1337,6 +1352,11 @@ metafile = true
 [[files]]
 file = "mods/roots-classic.pw.toml"
 hash = "af24988ff2d62239ac58836e24ad32373cc1923d4ff335a5c2087f325fef41c6"
+metafile = true
+
+[[files]]
+file = "mods/runelic.pw.toml"
+hash = "53254c5c7af6238845518f9e289b8b91337e88b6dad4566c2e1b223f6901f456"
 metafile = true
 
 [[files]]
