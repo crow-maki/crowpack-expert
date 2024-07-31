@@ -820,6 +820,11 @@ hash = "82ef251513ef10da2ff8e120fd998e4808821ab74e0e5a16070c1afd0b56ed25"
 metafile = true
 
 [[files]]
+file = "mods/ice-and-fire-dragons.pw.toml"
+hash = "3cf269299bc29be0e27b3ad11e50cdfa65944778d34d8ac5f191ffcf14e8f75f"
+metafile = true
+
+[[files]]
 file = "mods/iceberg.pw.toml"
 hash = "0a34505ddd3042a72fdab146e12ca584a7f382b9bf8c4e6a8c2730183141667e"
 metafile = true
@@ -1282,6 +1287,11 @@ metafile = true
 [[files]]
 file = "mods/rats.pw.toml"
 hash = "b866bd3d88a52bb8a83c6552f84a94b0f364b002a22859cf38f8cddf72d1b20e"
+metafile = true
+
+[[files]]
+file = "mods/reactive.pw.toml"
+hash = "fddc9ac357b5d090d5893f49e7b7d82fb39e0b99f8e34e78a5d12296b11171ba"
 metafile = true
 
 [[files]]
