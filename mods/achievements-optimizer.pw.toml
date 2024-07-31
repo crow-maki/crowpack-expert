@@ -1,13 +1,13 @@
 name = "Achievements Optimizer"
-filename = "AchievementOptimizer-1.20.1-1.0.2.jar"
+filename = "AchievementOptimizer-1.20.1-1.0.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "42263ee2a5ae94f8061b597e1f803a3aac8b527b"
+hash = "40bfd89ad3bb5d9f6c6d08cba4dee0e89330ab2b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4791478
+file-id = 5363614
 project-id = 912788

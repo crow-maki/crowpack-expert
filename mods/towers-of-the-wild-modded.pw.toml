@@ -1,13 +1,13 @@
 name = "Towers of the Wild Modded"
-filename = "totw_modded-forge-1.20.1-1.0.4.jar"
+filename = "totw_modded-forge-1.20.1-1.0.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "1e70bc30b2af40a748a8e9a5f4335aa4fb98acf4"
+hash = "7222f155bb8f0acca583c3c7228eff92fc81f495"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5193081
+file-id = 5239660
 project-id = 859365
