@@ -1625,6 +1625,11 @@ hash = "14e7219aa6c91b900cf44c2cdbdfd32d60ac80103050aa732a83d422836fb232"
 metafile = true
 
 [[files]]
+file = "mods/treechop.pw.toml"
+hash = "de3524544e462fc53f0959a59c879a866730436083527ecf37852f4682b93786"
+metafile = true
+
+[[files]]
 file = "mods/twigs.pw.toml"
 hash = "75ac47ef3a388aa5416f86415f79d262f68f5c8195c7a1a89f081b348a64c81f"
 metafile = true
