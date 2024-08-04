@@ -195,6 +195,16 @@ hash = "38879e7ca4f106b0e77a65e8467f41037a8d72c3c5ca9de5bf74705d137f5126"
 metafile = true
 
 [[files]]
+file = "mods/artsandcrafts-compatibility.pw.toml"
+hash = "930d98dd7c49b7ac675a7bf79199abf89849b30b7385c18094c6ab448fb58400"
+metafile = true
+
+[[files]]
+file = "mods/artsandcrafts.pw.toml"
+hash = "6878f9fecb26497a5b2bd38de543ae15caf3b01921c4db82b7df637584809ec9"
+metafile = true
+
+[[files]]
 file = "mods/athena.pw.toml"
 hash = "9638d8a308563842fd989970919a51f37ed1bcc82372bff47fc5a5c2e6de738e"
 metafile = true
@@ -327,11 +337,6 @@ metafile = true
 [[files]]
 file = "mods/ceramic-bucket.pw.toml"
 hash = "18193b1940bf94e37b96e2c5dd64a8ccb2fc2a3ace4e05ec0910870c66f8fa40"
-metafile = true
-
-[[files]]
-file = "mods/chalk.pw.toml"
-hash = "6fb02c0604464d93cec49c76107d82d613295306cad88663ecfe98ca124e3aa9"
 metafile = true
 
 [[files]]
