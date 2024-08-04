@@ -1,0 +1,13 @@
+name = "Bovines and Buttercups (Mooblooms)"
+filename = "Bovines-And-Buttercups-Forge-1.11.1+1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "950378c727b6073ddaee88cca5acc3e2441fc8fd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5368361
+project-id = 818440

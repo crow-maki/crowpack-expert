@@ -285,6 +285,11 @@ hash = "79e8f00ded5245e95e096c1b764ebd8bb4dd1b5eeeae6ce89d97d5d07e662ed3"
 metafile = true
 
 [[files]]
+file = "mods/bovines-and-buttercups.pw.toml"
+hash = "c45dadd06ba145f373ffb524a0eada8edd051c538b2ac08771e250dcbf9506f4"
+metafile = true
+
+[[files]]
 file = "mods/brandons-core.pw.toml"
 hash = "dcfcb5a0d4132f1baa0f66e824531d1bbcb77c1b7ca2b5d3497514e233564dd8"
 metafile = true
