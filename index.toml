@@ -1175,16 +1175,6 @@ hash = "6bb8b0848783cdf7108e499107a4991c2cee2a9240b963d427fa62b0f2a5820e"
 metafile = true
 
 [[files]]
-file = "mods/oh-the-biomes-weve-gone.pw.toml"
-hash = "b8e2da5faaf00d3243269b3b0ca193dfb8f98e40a2edd284fb4630c0abf68441"
-metafile = true
-
-[[files]]
-file = "mods/oh-the-trees-youll-grow.pw.toml"
-hash = "e2a6e7549e84da6a4eb157cd97689cef4b2a99ca3e677b3c70fd76bbe607e821"
-metafile = true
-
-[[files]]
 file = "mods/openblocks-elevator.pw.toml"
 hash = "228debc73b78da1bfcae7462b6fcd897ac7a0db986683bd62a43c3b409f67f52"
 metafile = true
