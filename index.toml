@@ -1608,11 +1608,6 @@ hash = "df642e1edaea2da4c14e4702e14769831abb7be4eaebe485899abc403281ed06"
 metafile = true
 
 [[files]]
-file = "mods/the-lost-cities.pw.toml"
-hash = "eba4a028575e56a02f8fb2b846778a3ecd62083cc9e0655f84075e71afaaab0f"
-metafile = true
-
-[[files]]
 file = "mods/thermal-dynamics.pw.toml"
 hash = "280fc16d8cbed28aff6aef45470a22b55cd64394f87eb6f59ce640e70fa27399"
 metafile = true
