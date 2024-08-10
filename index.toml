@@ -928,6 +928,11 @@ hash = "c970789c9173cbe6b480ba9a9e93d6f4eac3d8d890b57a2950fa970f974b11f4"
 metafile = true
 
 [[files]]
+file = "mods/inventory-profiles-next.pw.toml"
+hash = "b6c3ce52599c7dc852d81a973f11992988ad99446452bc210743f186579104d7"
+metafile = true
+
+[[files]]
 file = "mods/irons-spells-n-spellbooks.pw.toml"
 hash = "19b3b36cbdecd4c67c95002070a6c61898b351fe7910bf0f01b711f734abd116"
 metafile = true
@@ -1025,6 +1030,11 @@ metafile = true
 [[files]]
 file = "mods/let-me-despawn.pw.toml"
 hash = "f19f61fcce9df3befee6d0d6096a93a9646f93766b2523b27e7903da81e4269b"
+metafile = true
+
+[[files]]
+file = "mods/libipn.pw.toml"
+hash = "ee79f551b7aede4b923fc6df137c4ebbb1dd21eb80a3aaba6da8be93ac5010e7"
 metafile = true
 
 [[files]]
