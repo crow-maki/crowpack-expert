@@ -28,7 +28,7 @@
 
 [dimension_settings]
 	#Seasons will only apply to dimensons listed here
-	whitelisted_dimensions = ["minecraft:overworld"]
+	whitelisted_dimensions = ["minecraft:overworld","lostcities:lostcity"]
 
 [melting_settings]
 

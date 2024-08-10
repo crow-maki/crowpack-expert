@@ -1133,6 +1133,11 @@ hash = "2e96ff6625fa5844c2969fd49918310c789aa9d4bfbcffc69c997ba83de41bd6"
 metafile = true
 
 [[files]]
+file = "mods/morejs.pw.toml"
+hash = "19e2f5faa9bcdc20a377198e232f2566d87b7bf7bf82c0764add649a3741a38f"
+metafile = true
+
+[[files]]
 file = "mods/morph-o-tool.pw.toml"
 hash = "733e0c1c048579df9ecbaa054d0f80879d5c5a200863686373e63c11d71f8702"
 metafile = true
@@ -1585,6 +1590,11 @@ metafile = true
 [[files]]
 file = "mods/the-bumblezone-forge.pw.toml"
 hash = "df642e1edaea2da4c14e4702e14769831abb7be4eaebe485899abc403281ed06"
+metafile = true
+
+[[files]]
+file = "mods/the-lost-cities.pw.toml"
+hash = "eba4a028575e56a02f8fb2b846778a3ecd62083cc9e0655f84075e71afaaab0f"
 metafile = true
 
 [[files]]
