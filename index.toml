@@ -833,6 +833,11 @@ hash = "59d22263e36313c43ad7c5e4179cb3554d414f701442b0784d94c0ba2384edfd"
 metafile = true
 
 [[files]]
+file = "mods/gateways-to-eternity.pw.toml"
+hash = "47df5c1deae2b57313f1e1f42ca0b9a69eaf97fb3052bc89e716416007d3f3a3"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "68c4f7be227fade2f33dc6d1a06e6a83cf59414fd405324b9316d15dc141d2f8"
 metafile = true
@@ -850,6 +855,11 @@ metafile = true
 [[files]]
 file = "mods/glodium.pw.toml"
 hash = "2a7944b951ebfaa4dcf963c3e2faf43eb8115d99a4390daa49dd8ea6676e8828"
+metafile = true
+
+[[files]]
+file = "mods/gregtechceu-modern.pw.toml"
+hash = "d71e4bc22ccfd285fb8e308297a642e2237773c7e3a2cf93297d34b67604c64c"
 metafile = true
 
 [[files]]
@@ -1580,6 +1590,11 @@ metafile = true
 [[files]]
 file = "mods/the-bumblezone-forge.pw.toml"
 hash = "df642e1edaea2da4c14e4702e14769831abb7be4eaebe485899abc403281ed06"
+metafile = true
+
+[[files]]
+file = "mods/the-lost-cities.pw.toml"
+hash = "eba4a028575e56a02f8fb2b846778a3ecd62083cc9e0655f84075e71afaaab0f"
 metafile = true
 
 [[files]]
