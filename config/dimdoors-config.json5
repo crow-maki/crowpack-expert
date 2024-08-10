@@ -21,8 +21,8 @@
 	},
 	"world": {
 		"clusterGenChance": 20000.0,
-		"clusterDimBlacklist": ["lostcities:lostcity"],
-		"gatewayDimBlacklist": ["lostcities:lostcity"]
+		"clusterDimBlacklist": [],
+		"gatewayDimBlacklist": []
 	},
 	"dungeons": {
 		"maxDungeonDepth": 50
