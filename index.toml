@@ -1418,6 +1418,11 @@ hash = "2cb8dd9a3944a6430b49916a4fe1b6cf0bd7efd907054f8e679a02717149404f"
 metafile = true
 
 [[files]]
+file = "mods/seasonhud.pw.toml"
+hash = "c4cdc5aa09bd9726113f390c98536eed0cab6f1458d9b47a107d3b3fc67e05dd"
+metafile = true
+
+[[files]]
 file = "mods/selene.pw.toml"
 hash = "fb91b41e7a3921f55326939ec7046e53fb765329ec591bf6d43bae804a541a31"
 metafile = true
