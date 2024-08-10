@@ -1238,6 +1238,11 @@ hash = "6bb8b0848783cdf7108e499107a4991c2cee2a9240b963d427fa62b0f2a5820e"
 metafile = true
 
 [[files]]
+file = "mods/only-hammers-and-excavators.pw.toml"
+hash = "3770a6165d6f5a4d56bc7f65e63e404f6c7f9488ab7cbfd332798ba9c2f7705f"
+metafile = true
+
+[[files]]
 file = "mods/openblocks-elevator.pw.toml"
 hash = "9d66478fde6c978312f93734d481bcb9ae9c49b74cb4538fce58c65ef15d593c"
 metafile = true
