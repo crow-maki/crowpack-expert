@@ -93,11 +93,6 @@ file = "kubejs/startup_scripts/example.js"
 hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
 
 [[files]]
-file = "mods/achievements-optimizer.pw.toml"
-hash = "2b55b29e563c7bdd3879e67e70816a48640071ba7927bb8294dcfaff94738677"
-metafile = true
-
-[[files]]
 file = "mods/ad-astra-giselle-addon.pw.toml"
 hash = "7d58f2f1164fe878f50da49f24f28f922303a73143e504ac9e2d48cc98bcfb10"
 metafile = true
