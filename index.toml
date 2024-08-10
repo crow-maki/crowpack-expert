@@ -858,11 +858,6 @@ hash = "2a7944b951ebfaa4dcf963c3e2faf43eb8115d99a4390daa49dd8ea6676e8828"
 metafile = true
 
 [[files]]
-file = "mods/gregtechceu-modern.pw.toml"
-hash = "d71e4bc22ccfd285fb8e308297a642e2237773c7e3a2cf93297d34b67604c64c"
-metafile = true
-
-[[files]]
 file = "mods/hammer-lib.pw.toml"
 hash = "dc2d33109c6d785ac53b0af16565c122a0caa7faa8b27fbd920accbc31ac8de6"
 metafile = true
@@ -1590,11 +1585,6 @@ metafile = true
 [[files]]
 file = "mods/the-bumblezone-forge.pw.toml"
 hash = "df642e1edaea2da4c14e4702e14769831abb7be4eaebe485899abc403281ed06"
-metafile = true
-
-[[files]]
-file = "mods/the-lost-cities.pw.toml"
-hash = "eba4a028575e56a02f8fb2b846778a3ecd62083cc9e0655f84075e71afaaab0f"
 metafile = true
 
 [[files]]
