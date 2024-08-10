@@ -206,4 +206,4 @@ let tome = () => Item.of('eccentrictome:tome', {
         }
     },
     "eccentrictome:version": 1
-})
+}).enchant('ars_elemental:soulbound', 1)
