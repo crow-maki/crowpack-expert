@@ -1,13 +1,13 @@
 name = "Glassential Renewed (Fabric/Forge/NeoForge)"
-filename = "Glassential-renewed-forge-1.20.1-2.4.0.jar"
+filename = "Glassential-renewed-forge-1.20.1-2.4.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ee81120acc6e72017fd174d19a60c08f93b6c8b1"
+hash = "664fd14ba2b1616a1f75dc7f3028300407ba92df"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5521365
+file-id = 5595203
 project-id = 945149
