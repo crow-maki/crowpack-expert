@@ -1,0 +1,100 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "magical_mastery"
+	group: "7F991FEF896DDF7D"
+	icon: {
+		Count: 1
+		id: "ars_nouveau:dominion_wand"
+		tag: { }
+	}
+	id: "065912BA007CC07B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3D0F842E2DD60598"
+			tasks: [{
+				count: 1024L
+				id: "3C33C17EE6458896"
+				item: { Count: 1024, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			title: "Source Gem Mastery"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D0F842E2DD60598"]
+			id: "5E8093B7B09276E5"
+			tasks: [
+				{
+					count: 512L
+					id: "27D83BD48A50486A"
+					item: { Count: 512, id: "ars_nouveau:abjuration_essence" }
+					type: "item"
+				}
+				{
+					count: 512L
+					id: "268F6DA480933F23"
+					item: { Count: 512, id: "ars_nouveau:conjuration_essence" }
+					type: "item"
+				}
+				{
+					count: 512L
+					id: "04D99983C7CC9126"
+					item: { Count: 512, id: "ars_nouveau:air_essence" }
+					type: "item"
+				}
+				{
+					count: 512L
+					id: "565F23837D9D0A45"
+					item: { Count: 512, id: "ars_nouveau:earth_essence" }
+					type: "item"
+				}
+				{
+					count: 512L
+					id: "2D4E6B8218A0B73A"
+					item: { Count: 512, id: "ars_nouveau:fire_essence" }
+					type: "item"
+				}
+				{
+					count: 512L
+					id: "1DA77BD8AB42CAAC"
+					item: { Count: 512, id: "ars_nouveau:manipulation_essence" }
+					type: "item"
+				}
+				{
+					count: 512L
+					id: "5BB71FE347BAF61A"
+					item: { Count: 512, id: "ars_nouveau:water_essence" }
+					type: "item"
+				}
+				{
+					count: 512L
+					id: "1FCA77E2D8B7DD57"
+					item: { Count: 512, id: "ars_elemental:anima_essence" }
+					type: "item"
+				}
+			]
+			title: "Essence Mastery"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E8093B7B09276E5"]
+			id: "3CD439AAE34196D4"
+			tasks: [{
+				count: 256L
+				id: "2659E7E65366B987"
+				item: { Count: 256, id: "ars_elemental:mark_of_mastery" }
+				type: "item"
+			}]
+			title: "Ars Mastery"
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "Magic"
+}

@@ -1,0 +1,1077 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "prologue"
+	group: "199CC52C5EC11FA8"
+	icon: "minecraft:crafting_table"
+	id: "07B4836CC7FB26E2"
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Is it really Minecraft if you don't start out by punching a tree?"
+				""
+				"...according to my lawyers, the answer is yes. Instead, try scavenging a twig and some pebbles from the ground. This should be enough to start making stone tools. If you can't find enough pebbles, grabbing some flint from gravel will do in a pinch."
+				""
+				"Note that the recipes for wooden axes and pickaxes have been removed. Jump straight into the stone age!"
+			]
+			id: "04A0B177E65AD615"
+			rewards: [
+				{
+					id: "1EACA4845A1EF964"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "41FE5F108580D5E9"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0770FE215085E0AF"
+					item: "twigs:twig"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1BD47D7472E59EB3"
+					item: {
+						Count: 3
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(minecraft:flint)item(minecraft:cobblestone))"
+						}
+					}
+					title: "Starting Tool Materials"
+					type: "item"
+				}
+			]
+			title: "No Punching"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04A0B177E65AD615"]
+			description: [
+				"With enough pebbles, you should be able to craft the cobblestone needed for a Silent Gear stone pickaxe head. The twigs you found will give you a stick for a handle. Put them together, and you get an incredible...stone pickaxe."
+				""
+				"Okay, so it's not &oparticularly&r glamorous, but it's gotta be better than a wooden pickaxe whose only job is to mine a few cobblestone and then get used as furnace fuel, right?"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1D9085C06D608A97"
+			rewards: [{
+				id: "66EF102A7A236F95"
+				item: {
+					Count: 1
+					id: "silentgear:axe"
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										ID: "silentgear:axe_head"
+										Item: {
+											Count: 1b
+											id: "silentgear:axe_head"
+											tag: {
+												Damage: 0
+												Materials: [{
+													ID: "silentgear:stone"
+												}]
+											}
+										}
+									}
+									{
+										ID: "silentgear:rod"
+										Item: {
+											Count: 1b
+											id: "silentgear:rod"
+											tag: {
+												Materials: [{
+													ID: "silentgear:wood"
+												}]
+											}
+										}
+									}
+								]
+							}
+							Properties: {
+								HarvestTier: "minecraft:stone"
+								LockStats: 0b
+								ModVersion: "3.6.5"
+								Stats: {
+									"silentgear:attack_reach": 3.0f
+									"silentgear:attack_speed": -3.2f
+									"silentgear:charging_value": 0.5f
+									"silentgear:durability": 131.0f
+									"silentgear:enchantment_value": 5.0f
+									"silentgear:harvest_speed": 4.0f
+									"silentgear:melee_damage": 6.0f
+									"silentgear:rarity": 4.0f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								Traits: [
+									{
+										Level: 1b
+										Name: "silentgear:ancient"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:flexible"
+									}
+								]
+							}
+							Rendering: {
+								Model: 2
+								ModelKey: "axe:axe_head{stone},rod{wood},"
+							}
+						}
+						SGear_UUID: [I;
+							573371360
+							231555814
+							-1107282367
+							1182504721
+						]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7E40B3B30A5A52E1"
+					item: {
+						Count: 1
+						id: "silentgear:pickaxe_head"
+						tag: {
+							CraftedCount: 1
+							Damage: 0
+							Materials: [{
+								Count: 3b
+								ID: "silentgear:stone"
+								Item: {
+									Count: 1b
+									id: "minecraft:cobblestone"
+								}
+							}]
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "285D0B6E3A0D00C9"
+					item: "minecraft:stick"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4426ADA62D9AAC83"
+					item: {
+						Count: 1
+						id: "silentgear:pickaxe"
+						tag: {
+							Damage: 0
+							SGear_Data: {
+								Construction: {
+									Parts: [
+										{
+											ID: "silentgear:pickaxe_head"
+											Item: {
+												Count: 1b
+												id: "silentgear:pickaxe_head"
+												tag: {
+													Damage: 0
+													Materials: [{
+														ID: "silentgear:stone"
+													}]
+												}
+											}
+										}
+										{
+											ID: "silentgear:rod"
+											Item: {
+												Count: 1b
+												id: "silentgear:rod"
+												tag: {
+													Materials: [{
+														ID: "silentgear:wood"
+													}]
+												}
+											}
+										}
+									]
+								}
+								Properties: {
+									HarvestTier: "minecraft:stone"
+									LockStats: 0b
+									ModVersion: "3.6.5"
+									Stats: {
+										"silentgear:attack_reach": 3.0f
+										"silentgear:attack_speed": -2.8f
+										"silentgear:charging_value": 0.5f
+										"silentgear:durability": 131.0f
+										"silentgear:enchantment_value": 5.0f
+										"silentgear:harvest_speed": 4.0f
+										"silentgear:melee_damage": 2.0f
+										"silentgear:rarity": 4.0f
+										"silentgear:repair_efficiency": 1.0f
+									}
+									Traits: [
+										{
+											Level: 1b
+											Name: "silentgear:ancient"
+										}
+										{
+											Level: 2b
+											Name: "silentgear:flexible"
+										}
+									]
+								}
+								Rendering: {
+									Model: 2
+									ModelKey: "pickaxe:pickaxe_head{stone},rod{wood},"
+								}
+							}
+							SGear_UUID: [I;
+								-768951692
+								850807774
+								-1832503729
+								-1213111312
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Your First Tool"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E7802C4CCE771EE"]
+			description: [
+				"Now that you can mine cobblestone, it's time to craft a furnace!"
+				""
+				"You need a little bit more than 8 cobblestone for that, though. That pickaxe is gonna get a workout."
+			]
+			icon: "minecraft:furnace"
+			id: "59E92D9E5EDF7F9F"
+			rewards: [{
+				count: 8
+				id: "182C0AC7C9AF7288"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 39L
+					id: "6FC6AED15D34EBBB"
+					item: "minecraft:cobblestone"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4F464DEACD3A7961"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)"
+						}
+					}
+					optional_task: true
+					title: "Any #minecraft:planks"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "736C49FA6DF78F3A"
+					item: { Count: 3, id: "minecraft:stick" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1351F22F07C2E52E"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			title: "Smelt Ya Later!"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D9085C06D608A97"]
+			description: [
+				"Hey, now that we've got some basic tools, we can finally get a log and --"
+				""
+				"Ahem. Let's get &otwo&r logs, and make a crafting table."
+			]
+			icon: "minecraft:crafting_table"
+			id: "1E7802C4CCE771EE"
+			rewards: [
+				{
+					id: "1EC06F4A2BCFFCCD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "1B6496B54B1A0EDF"
+					item: "gtceu:rubber_sapling"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "48E84B86C0C0CAE6"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
+						}
+					}
+					optional_task: true
+					title: "Any #minecraft:logs"
+					type: "item"
+				}
+				{
+					id: "750D21DABD6BC0A9"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
+			title: "Let's Get Crafty"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D9085C06D608A97"]
+			description: [
+				"Sooner or later, your beautiful pickaxe is going to run out of durability...but crafting a whole new one sounds wasteful, doesn't it?"
+				""
+				"Thankfully, Silent Gear tools don't vanish when they break -- and they can be easily repaired on-the-go! Just load a repair kit up with whatever tier of material you made the main tool part out of."
+			]
+			id: "1FFFCA2D7AC6CE97"
+			optional: true
+			rewards: [
+				{
+					id: "74D501219F57439D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "2E6EE77376D65E7A"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "7A30612B74427F05"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(silentgear:repair_kits)"
+					}
+				}
+				title: "Any #silentgear:repair_kits"
+				type: "item"
+			}]
+			title: "Tool Repair"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["59E92D9E5EDF7F9F"]
+			description: ["&4Malum&r offers coal and charcoal fragments that can smelt single items. Helpful for when you're low on burnable material or just want to be eco-friendly."]
+			id: "1F0956128C51B78F"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "38B6984875D0C8BC"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Tiny Coals"
+			tasks: [{
+				count: 8L
+				id: "1D068D94176ACB84"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(malum:coal_fragment)item(malum:charcoal_fragment))"
+					}
+				}
+				title: "Coal Fragments"
+				type: "item"
+			}]
+			title: "Waste Not, Want Not"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E7802C4CCE771EE"]
+			id: "051C079B6AAD3F29"
+			subtitle: "To Sleep, Perchance To Dream"
+			tasks: [{
+				id: "190FA0F43BF5F7CD"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:beds)"
+					}
+				}
+				title: "Any #minecraft:beds"
+				type: "item"
+			}]
+			title: "Bedroom Essentials"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["59E92D9E5EDF7F9F"]
+			description: ["Now that we've got some basic metallurgy under our belt, we can improve our pickaxe quite drastically. An iron pickaxe head and copper tool rod will make mining a lot easier."]
+			id: "4E029945F7EF6829"
+			optional: true
+			rewards: [
+				{
+					id: "435C745DD58D2325"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4CC996364407F44A"
+					item: {
+						Count: 1
+						id: "silentgear:blueprint_book"
+						tag: {
+							Inventory: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "207275862FF7DADF"
+					item: {
+						Count: 1
+						id: "silentgear:pickaxe_head"
+						tag: {
+							CraftedCount: 1
+							Damage: 0
+							Materials: [{
+								Count: 3b
+								ID: "silentgear:iron"
+								Item: {
+									Count: 1b
+									id: "minecraft:iron_ingot"
+								}
+							}]
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5BD2CC4BBC5CBA73"
+					item: {
+						Count: 1
+						id: "silentgear:rod"
+						tag: {
+							CraftedCount: 4
+							Materials: [{
+								Count: 2b
+								ID: "silentgear:copper"
+								Item: {
+									Count: 1b
+									id: "minecraft:copper_ingot"
+								}
+							}]
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "A Better Pickaxe"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["59E92D9E5EDF7F9F"]
+			description: [
+				"This won't be nearly enough mining, but hopefully you've found a few ore veins and are ready to go to town."
+				""
+				"Mining hammers, saws, and excavators will make that process quite a bit easier, providing AOE resource gathering."
+			]
+			id: "14F8329A1C092561"
+			rewards: [
+				{
+					id: "2AF481BD5B512BCF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0601A2AB08840CF6"
+					item: "silentgear:hammer_blueprint"
+					type: "item"
+				}
+				{
+					id: "236373C63F24F235"
+					item: "silentgear:excavator_blueprint"
+					type: "item"
+				}
+				{
+					id: "7AAF81F940238A26"
+					item: "silentgear:saw_blueprint"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "332F8E8C2F823B36"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(minecraft:raw_iron)item(gtceu:raw_hematite)item(gtceu:raw_goethite)item(gtceu:raw_magnetite)item(gtceu:raw_pyrite)item(gtceu:raw_yellow_limonite)item(gtceu:raw_granitic_mineral_sand)item(gtceu:raw_basaltic_mineral_sand))"
+						}
+					}
+					title: "Raw \"Iron\""
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "739D6C65AD2D1873"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(minecraft:raw_copper)item(gtceu:raw_chalcopyrite)item(gtceu:raw_tetrahedrite)item(gtceu:raw_bornite)item(gtceu:raw_chalcocite)item(gtceu:raw_malachite))"
+						}
+					}
+					title: "Raw \"Copper\""
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "09E26C1C1D4CAEEA"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(gtceu:raw_cassiterite)item(gtceu:raw_cassiterite_sand)item_tag(forge:raw_materials/tin))"
+						}
+					}
+					title: "Raw \"Tin\""
+					type: "item"
+				}
+			]
+			title: "Basic Resources"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14F8329A1C092561"]
+			description: [
+				"You &ocould&r dive right into GregTech tools using iron, but their durability will be much better if you smelt some iron nuggets into wrought iron first."
+				""
+				"Later, we'll get a more efficient recipe to do this. For now, stock up on burnable materials!"
+			]
+			id: "40140223C9E64735"
+			rewards: [
+				{
+					id: "49D7B0DE68040499"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "64E0669244589B4C"
+					item: "gtceu:wrought_iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 27L
+				id: "410AE7E20150823F"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			title: "Wrought Iron"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["40140223C9E64735"]
+			id: "3BE452753863E28E"
+			rewards: [{
+				id: "4750F172755DC234"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "1C7521EFE03CC585"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 383
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33D85421D2CF135D"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_file"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 383
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48F56624B6EB4B06"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_screwdriver"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 383
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0811BB237E72FBD0"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_wire_cutter"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 383
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EA3B3498B8A7728"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_saw"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 383
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50691866BC55643C"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_wrench"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 383
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CDD4B7546F9622D"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_mortar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 383
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "A Set Of Tools"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3BE452753863E28E"]
+			description: [
+				"Now that you have the tools, it's time to make your first alloy. Bronze is a simple combination of dusts, smelted into a workhorse ingot that will carry you through the ULV tier of machines."
+				""
+				"Make a lot. You'll need it."
+			]
+			id: "0F0197692313C0F2"
+			rewards: [{
+				count: 8
+				id: "6E50451B44DCF287"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "308BE83564AF8DC3"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:ingots/bronze)"
+					}
+				}
+				title: "Bronze Ingots"
+				type: "item"
+			}]
+			title: "Your First Alloy"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3BE452753863E28E"]
+			id: "0608758F4F919C7F"
+			tasks: [
+				{
+					id: "5E287774D0AEFEAD"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "2F595D1F2367040E"
+					item: { Count: 25, id: "gtceu:coke_oven_bricks" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1E7802C4CCE771EE"]
+			description: ["The crafting station allows access to adjacent inventories while crafting. Very handy for keeping track of all those GregTech tools!"]
+			id: "7365FA4E95A5071B"
+			optional: true
+			rewards: [
+				{
+					id: "447ED001D2B5723B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "284371FDDCA03A00"
+					item: "sophisticatedstorage:basic_tier_upgrade"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "13888B4A6869B31D"
+				item: "craftingstation:crafting_station"
+				type: "item"
+			}]
+			title: "Not Quite Tinker's"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E7802C4CCE771EE"]
+			description: ["Need access to your crafting table while on an adventure? Just put that sucker on a stick. Or any other workstation. It's all good."]
+			id: "4084649A7610C23D"
+			optional: true
+			rewards: [{
+				id: "58762178261F0919"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "65CEF9CC18AF89A2"
+				item: "crafting_on_a_stick:crafting_table"
+				type: "item"
+			}]
+			title: "Crafting On The Go"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3BE452753863E28E"]
+			description: ["Many iron recipes have been changed to require more complex parts. You should be able to make them with your new toolkit, though!"]
+			id: "53AD3EA743F73551"
+			rewards: [{
+				id: "4888AEA9D5D6B9BA"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "636692BB8A684F4B"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			title: "Iron Recipes"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3BE452753863E28E"]
+			description: ["You're going to be doing a &olot&r of smelting. Better upgrade your furnaces."]
+			id: "64FC2BB2B3DA5016"
+			optional: true
+			rewards: [{
+				id: "759752737D56D432"
+				item: "ironfurnaces:upgrade_iron"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "454DE00AF862D617"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			title: "Furnace Upgrades"
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["051C079B6AAD3F29"]
+			id: "22272BB1582A133D"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "7234DCF5D88152D5"
+				item: "comforts:rope_and_nail"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "6F249063EC1E0CD5"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:sleeping_bags)"
+						}
+					}
+					title: "Any #comforts:sleeping_bags"
+					type: "item"
+				}
+				{
+					id: "5F70DFB18ED6950C"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:hammocks)"
+						}
+					}
+					title: "Any #comforts:hammocks"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0F0197692313C0F2"
+				"0608758F4F919C7F"
+			]
+			description: ["Automation in GregTech begins with the steam age. We could use Greg's boilers, but it's easier (and safer!) to make a compression dynamo to burn the creosote oil we make in the coke oven."]
+			id: "2DD5C039F5901F9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42BA31E5262BDC99"
+				table_id: 744782877120255398L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "64DCC8904F0F5011"
+				item: "systeams:compression_boiler"
+				type: "item"
+			}]
+			title: "Steam Powered"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["53AD3EA743F73551"]
+			id: "497563EA7C6BA821"
+			optional: true
+			rewards: [{
+				count: 26
+				id: "548E5AE43ED6455B"
+				item: "railcraft:water_tank_siding"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 26L
+				id: "49717A372E6B3CB1"
+				item: { Count: 26, id: "railcraft:water_tank_siding" }
+				type: "item"
+			}]
+			title: "Water Collection"
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["497563EA7C6BA821"]
+			id: "32DFF9661C90799D"
+			optional: true
+			shape: "circle"
+			tasks: [
+				{
+					count: 4L
+					id: "79587CB849CF22B3"
+					item: "thermal:fluid_duct"
+					type: "item"
+				}
+				{
+					id: "4AD2737DD4D8A0C3"
+					item: "thermal:servo_attachment"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["59E92D9E5EDF7F9F"]
+			description: [
+				"You may not be able to smelt logs into charcoal, but that doesn't mean you have to wait for a coke oven to start making the stuff. Put some logs on a campfire for an early, inefficient means of getting some nice charcoal for smelting! Or put some sticks on for a cheap source of torches."
+				""
+				"You may also notice a beneficial effect when you're around campfires..."
+			]
+			id: "6B07E591E090DC27"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "2EC1233FB1D10930"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Bonfire Lit"
+			tasks: [{
+				id: "6A8EB0A105C4E57F"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			title: "Campfire Cooking"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["14F8329A1C092561"]
+			id: "34783CFAEB24F35A"
+			optional: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "730F18C7F6846C95"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:philosophers_stone"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "052E8D0EAB5AE03B"
+					item: "projecte:transmutation_table"
+					type: "item"
+				}
+			]
+			title: "A Little Alchemy"
+			x: 9.5d
+			y: 0.0d
+		}
+	]
+	title: "Prologue"
+}

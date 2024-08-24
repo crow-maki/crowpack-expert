@@ -1,0 +1,37 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "lv"
+	group: "199CC52C5EC11FA8"
+	id: "30EFEA7B96DC346E"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["354EEE28F452C04B"]
+			id: "67FA1B06B9901F29"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2CCBA4DC0840C8A5"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "462C02F453009527"
+			tasks: [{
+				id: "7459F31A1D371654"
+				item: "systeams:steam_dynamo"
+				type: "item"
+			}]
+			title: "Turbines Are For Chumps"
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "LV"
+}

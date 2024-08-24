@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "item": "#forge:plates",
+      "emc": 0
+    },
+    {
+      "item": "#botania:special_flowers",
+      "emc": 0
+    },
+    {
+      "item": "malum:arcane_charcoal",
+      "emc": 0
+    },
+    {
+      "item": "botania:livingwood_log",
+      "emc": 0
+    },
+    {
+      "item": "botania:dreamwood_log",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:glass",
+      "emc": 1
+    }
+  ]
+}

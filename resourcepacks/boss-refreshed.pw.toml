@@ -1,0 +1,13 @@
+name = "Boss Refreshed"
+filename = "boss-refreshed-v1.4.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4339179524f42f45371dcbe296313d690dc1fab4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5635328
+project-id = 882133

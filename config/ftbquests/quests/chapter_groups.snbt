@@ -1,0 +1,6 @@
+{
+	chapter_groups: [
+		{ id: "199CC52C5EC11FA8", title: "Progression" }
+		{ id: "7F991FEF896DDF7D", title: "Mastery" }
+	]
+}

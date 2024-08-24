@@ -1,0 +1,13 @@
+name = "Project Expansion"
+filename = "ProjectExpansion-1.20.1-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e33ce284d5fa631e76fd998cc561827dd606737d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5395318
+project-id = 579177

@@ -1,0 +1,5 @@
+
+[logbegone]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "GL_INVALID_OPERATION error generated"]
+	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "GL_INVALID_OPERATION error generated"]
+

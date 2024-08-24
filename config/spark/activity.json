@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "crowmaki",
+      "uniqueId": "5c4bddd2-ed20-4216-8ff9-d982c71f4bc4"
+    },
+    "time": 1724381790535,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/eE6vLaQovM"
+    }
+  }
+]

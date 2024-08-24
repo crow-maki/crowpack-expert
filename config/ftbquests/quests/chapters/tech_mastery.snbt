@@ -1,0 +1,49 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "tech_mastery"
+	group: "7F991FEF896DDF7D"
+	icon: "gtceu:advanced_integrated_circuit"
+	id: "5E06B013988984F3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6E326C5EB62C20EB"
+			tasks: [{
+				id: "6579806130F391C2"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 1000000L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E326C5EB62C20EB"]
+			id: "300C11E6B3FAB75D"
+			tasks: [{
+				id: "64B6786DAD50CC70"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 10000000L
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["300C11E6B3FAB75D"]
+			id: "7CA0DE2D65905176"
+			tasks: [{
+				id: "1B8BB9D1CE507E75"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 100000000L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "Tech"
+}

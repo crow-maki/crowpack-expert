@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iv"
+	group: "199CC52C5EC11FA8"
+	id: "747DAC78B65DD52D"
+	order_index: 6
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [ ]
+	title: "IV"
+}

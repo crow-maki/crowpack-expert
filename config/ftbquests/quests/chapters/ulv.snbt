@@ -1,0 +1,496 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "ulv"
+	group: "199CC52C5EC11FA8"
+	icon: "systeams:boiler_pipe"
+	id: "5A7B52AF333ED9F5"
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["07B4836CC7FB26E2"]
+			description: [
+				"Now that we have steam to power them, let's work on the most primitive of GregTech machines."
+				""
+				"Only three of these steam-age bronze machines are strictly necessary, but you shouldn't skip past the others too quickly -- they can often improve recipes and save your tool durability."
+				""
+				"Note that these machines must have space to vent steam after each operation -- and that if that steam hits a player, it may be a painful experience! If the vent direction is not to your liking, you can right-click the machine with a wrench to shift where the vent will be."
+			]
+			id: "35AC5890DD88EFAD"
+			rewards: [
+				{
+					count: 2
+					id: "59798D1EC34A50E4"
+					item: "gtceu:bronze_machine_casing"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6D4CF16EBAED2A2C"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "141FDC6C919D4C71"
+				item: "gtceu:bronze_machine_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35AC5890DD88EFAD"]
+			id: "19515A607AA3CD3B"
+			rewards: [{
+				count: 16
+				id: "78260DEC6E872699"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D3B1A676C7E0C7A"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["35AC5890DD88EFAD"]
+			id: "5A4CCF92922098FB"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "105F6BD02341BB7A"
+				item: "gtceu:raw_sulfur"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1DE44A70773A0981"
+				item: "gtceu:lp_steam_extractor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["35AC5890DD88EFAD"]
+			description: ["Congratulations on getting your first ore-doubling machine -- although it is very, &overy&r slow at that job."]
+			id: "09C6B3F01588E3AC"
+			rewards: [{
+				id: "06885A8C246F60CA"
+				item: "sophisticatedstorage:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B5F2DEA2A4E9428"
+				item: "gtceu:lp_steam_macerator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["35AC5890DD88EFAD"]
+			description: ["Instead of converting 2 ingots to a single plate, convert at a 3:2 ratio instead! Also save your poor hammer's durability."]
+			id: "63504EF666D47929"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "5AEB7741DE4C5A79"
+				item: "gtceu:bronze_plate"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Bonk."
+			tasks: [{
+				id: "484A350E45BAF5E7"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["35AC5890DD88EFAD"]
+			description: [
+				"Conserve your coal and instead use the power of steam to smelt items!"
+				""
+				"No, but seriously. Conserve your coal for making circuits."
+			]
+			id: "74E859995E8B649D"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "410986EE96709EBC"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Eco-Friendly Cooking"
+			tasks: [{
+				id: "61DE52EEA1DD77C1"
+				item: "gtceu:lp_steam_furnace"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["35AC5890DD88EFAD"]
+			id: "6EA5F9C6B740679A"
+			rewards: [{
+				count: 8
+				id: "1BC9F0E7C135BA77"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DAADC00300352EE"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19515A607AA3CD3B"]
+			id: "5F3C0E563B4E7EC3"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "754C339E533AA3B6"
+				item: "gtceu:hp_steam_compressor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A4CCF92922098FB"]
+			id: "2E7E2EE25113D858"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "329D14559914632F"
+				item: "gtceu:hp_steam_extractor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63504EF666D47929"]
+			id: "730E2F3C72DB9EE2"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "6CDD556693DB93B2"
+				item: "gtceu:hp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6EA5F9C6B740679A"]
+			id: "203FD66FCDF928E5"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "11888599999FAE7C"
+				item: "gtceu:hp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09C6B3F01588E3AC"]
+			id: "13B31AF4E1BF6E9F"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "221F7F82D1B6D2D6"
+				item: "gtceu:hp_steam_macerator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["74E859995E8B649D"]
+			id: "11ED4BB315483D62"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "658C03A5ADF5294F"
+				item: "gtceu:hp_steam_furnace"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"19515A607AA3CD3B"
+				"09C6B3F01588E3AC"
+			]
+			description: ["The Primitive Blast Furnace will be your first foray into the world of steel production. Slap in some iron ingots and either coal or charcoal, and then grab a snack. Or two. It's very slow."]
+			id: "5FBCC85A29794546"
+			rewards: [{
+				count: 4
+				id: "095A2528384CD7FC"
+				item: "gtceu:coke_gem"
+				type: "item"
+			}]
+			subtitle: "Steel Yourself."
+			tasks: [
+				{
+					id: "5E5156F0AFA44DE6"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "49BE755B97E9CC37"
+					item: { Count: 32, id: "gtceu:firebricks" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2351E2C49830515A"]
+			id: "5672838D1B4FA0B1"
+			optional: true
+			rewards: [{
+				count: 10
+				id: "211ACA5A36E93F8E"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "6425CCD360A54473"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5672838D1B4FA0B1"]
+			id: "445CB94BCE0BC5EE"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "6479899FE0B92B2C"
+				type: "dimension"
+			}]
+			title: "Nether Time!"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["445CB94BCE0BC5EE"]
+			id: "615FFAFC201582BC"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "6405DFCF4F6171B7"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			title: "Tom's Simple Storage"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1E1AABBAE76160D4"
+				"4AE073CB4C0AB5A3"
+				"78F7C8847644B971"
+				"3AD6A1DD29BDC74F"
+			]
+			description: [
+				"The main goal of the steam age are these, the basic circuits that will be the foundation of your first electric machinery."
+				""
+				"You'll want to craft a few of them, as usual."
+			]
+			id: "354EEE28F452C04B"
+			rewards: [{
+				id: "53975B3C9A47DA52"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "342FD73203F7ECC8"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			title: "Basic Circuitry"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7D4DF18913D4F31C"]
+			id: "78F7C8847644B971"
+			tasks: [{
+				count: 3L
+				id: "0BE126C5DD4376CC"
+				item: "gtceu:red_alloy_single_cable"
+				type: "item"
+			}]
+			title: "Cable News"
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6EA5F9C6B740679A"]
+			id: "7D4DF18913D4F31C"
+			tasks: [{
+				count: 6L
+				id: "74C4B646A420DD1D"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			title: "The Red Alloy"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5FBCC85A29794546"]
+			id: "2351E2C49830515A"
+			rewards: [{
+				count: 8
+				id: "51BD0F4B7B21CF93"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "530242A0762C8955"
+				item: { Count: 8, id: "gtceu:steel_ingot" }
+				type: "item"
+			}]
+			title: "Steel Ingots"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["35AC5890DD88EFAD"]
+			id: "73550A2F1FB08924"
+			optional: true
+			rewards: [
+				{
+					id: "5AD93F4B49BE546D"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "072A35475FFBD579"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "2DEBE9BEEE78211A"
+				item: "gtceu:lp_steam_rock_crusher"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["73550A2F1FB08924"]
+			id: "634F133B8283E729"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "21D48DFF6405A5B4"
+				item: "gtceu:hp_steam_rock_crusher"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2351E2C49830515A"]
+			id: "1E1AABBAE76160D4"
+			rewards: [{
+				count: 32
+				id: "681B7517B761BF1D"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "5837C2AC7944615C"
+				item: { Count: 2, id: "gtceu:vacuum_tube" }
+				type: "item"
+			}]
+			title: "Vacuum Tubes"
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"19515A607AA3CD3B"
+				"09C6B3F01588E3AC"
+			]
+			id: "011C43B1944CAEBD"
+			tasks: [{
+				id: "599F708EE85A2B5F"
+				item: "gtceu:resin_circuit_board"
+				type: "item"
+			}]
+			title: "A Sticky Circuit Board"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["011C43B1944CAEBD"]
+			id: "4AE073CB4C0AB5A3"
+			tasks: [{
+				id: "6D0BB56A249633C5"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			title: "Now It's Got Wires On It"
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["35AC5890DD88EFAD"]
+			id: "3AD6A1DD29BDC74F"
+			tasks: [{
+				count: 2L
+				id: "619506BA2A7D7EA8"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			title: "Resistance Is Futile"
+			x: -1.0d
+			y: 3.5d
+		}
+	]
+	title: "ULV"
+}

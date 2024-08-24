@@ -1,0 +1,455 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "useful_stuff"
+	group: ""
+	icon: {
+		Count: 1
+		id: "tiab:time_in_a_bottle"
+		tag: { }
+	}
+	id: "5C2C1D9854AD3D36"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "60748CF35F1B0B6C"
+			tasks: [{
+				id: "5C15A829E8AC3AA8"
+				item: {
+					Count: 1
+					id: "tiab:time_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3BE514F7CA00C81E"
+			tasks: [{
+				id: "395EEB045C6081F6"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "004CEBA95EB63C62"
+			tasks: [{
+				id: "74228445C3E36FC4"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "71EE86FE5CE7E76E"
+			tasks: [
+				{
+					id: "031FF1FA5F9983C7"
+					item: "buildinggadgets2:gadget_building"
+					type: "item"
+				}
+				{
+					id: "67A44500536417ED"
+					item: "buildinggadgets2:gadget_exchanging"
+					type: "item"
+				}
+				{
+					id: "32D2FFA07ABE502C"
+					item: "buildinggadgets2:gadget_destruction"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "001DD443B86BDD4C"
+			tasks: [{
+				id: "7FC36A9727C15E99"
+				item: {
+					Count: 1
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "5C765EEF7951A20F"
+			tasks: [
+				{
+					id: "587140F0DFBE650E"
+					item: "chisel:chisel"
+					type: "item"
+				}
+				{
+					id: "0FBD252DADE03FA6"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(chipped:glassblower)item(chipped:botanist_workbench)item(chipped:carpenters_table)item(chipped:loom_table)item(chipped:mason_table)item(chipped:alchemy_bench)item(chipped:tinkering_table))"
+						}
+					}
+					title: "Any Chipped Workstation"
+					type: "item"
+				}
+			]
+			title: "Chiseled \\& Chipped"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "728177EC21537040"
+			tasks: [{
+				id: "31E1F814611B2C50"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "780448BEDB8B3B72"
+			tasks: [{
+				id: "6AD633A21DB34BD1"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(botanypots:all_botany_pots)"
+					}
+				}
+				title: "Any Botany Pot"
+				type: "item"
+			}]
+			title: "Botany Pots"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "4825127D370630F4"
+			tasks: [{
+				id: "196D69C872E30692"
+				item: {
+					Count: 1
+					id: "experienceobelisk:experience_obelisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "37532124FF1B7C40"
+			rewards: [{
+				id: "56DFBDAB811F829D"
+				item: "dankstorage:dock"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33B30646F350258A"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(dankstorage:dank_storages)"
+					}
+				}
+				title: "Any Dank Storage"
+				type: "item"
+			}]
+			title: "Dank Storage"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "61BDC2C33B069BD2"
+			tasks: [{
+				id: "5556FBAD38A4E6F6"
+				item: "easy_villagers:trader"
+				type: "item"
+			}]
+			title: "Easy Villagers"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "525D501DF2175EC6"
+			tasks: [{
+				id: "5BE8436722ACAAE1"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(elevatorid:elevators)"
+					}
+				}
+				title: "Any #elevatorid:elevators"
+				type: "item"
+			}]
+			title: "Elevators"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "7321D45607F7D8A8"
+			tasks: [{
+				id: "60D6B664B1BAC7ED"
+				item: "energymeter:meter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "36A79ABEA6CDA97C"
+			tasks: [{
+				id: "616A8532CBEEB493"
+				item: "hyperbox:hyperbox"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "1FCE9AED45D4B213"
+			tasks: [{
+				id: "0078D1DB44152BFF"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(mininggadgets:mininggadget_simple)item(mininggadgets:mininggadget_fancy)item(mininggadgets:mininggadget))"
+					}
+				}
+				title: "Any Mining Gadget"
+				type: "item"
+			}]
+			title: "Mining Gadgets"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "08C0DF0872AE8C32"
+			tasks: [{
+				id: "7D8ED9ACA20359A9"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(paraglider:paragliders)"
+					}
+				}
+				title: "Any Paraglider"
+				type: "item"
+			}]
+			title: "Paragliders"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "38F02D07B4A4FCA7"
+			tasks: [{
+				id: "2E07A9E8D54FA661"
+				item: {
+					Count: 1
+					id: "shrink:shrinking_device"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "3BDCC398801EC1E6"
+			rewards: [{
+				id: "49D0BB65889279B0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 22
+						}
+					}
+					id: "tarotcards:tarot_deck"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "26F93F4D45F173BE"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tarotcards:tarot_cards)"
+					}
+				}
+				title: "Any Tarot Card"
+				type: "item"
+			}]
+			title: "Tarot Cards"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "41F739613EEBC407"
+			tasks: [{
+				id: "47A2E782D0BBA6C0"
+				item: {
+					Count: 1
+					id: "tempad:tempad"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "3AE0E9ED85EF58C0"
+			tasks: [{
+				id: "119E4CB51ACC6B07"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "296D471DC776AD48"
+			tasks: [{
+				id: "7E5B6CDD5E180CAE"
+				item: "morphtool:tool"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "74B7A94B4881D53C"
+			tasks: [{
+				id: "48A042A8CCFC6F6A"
+				item: "transmog:transmogrification_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "6CBD7433772DEF4C"
+			tasks: [{
+				id: "3583288D32E65FDF"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(waystones:waystones)"
+					}
+				}
+				title: "Any Waystone"
+				type: "item"
+			}]
+			title: "Waystones"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			description: ["These are all useful items you may want to look into crafting. None are required for quest progression, but they're still worth calling out here!"]
+			id: "35C0A4D0E43A06EB"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3175572FB730BCA8"
+				title: "Useful Stuff"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "04AB57E868E9D71B"
+			tasks: [{
+				id: "4A3FA0B0B7C12DAF"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "18F49B138ECD1929"
+			rewards: [{
+				id: "13DA38CAE78D4D4A"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "46D844B57C5C87BA"
+					item: "hostilenetworks:sim_chamber"
+					type: "item"
+				}
+				{
+					id: "2D02493BB9BEF855"
+					item: "hostilenetworks:loot_fabricator"
+					type: "item"
+				}
+			]
+			title: "Hostile Neural Networks"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "112D030FCE584C88"
+			rewards: [{
+				id: "20DA372E0D97866B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "usefulslime:slime_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "23BC6F07A23BA2CB"
+				item: {
+					Count: 1
+					id: "usefulslime:slime_sling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Slimy Stuff"
+			x: -1.0d
+			y: 1.0d
+		}
+	]
+	title: "Useful Stuff"
+}

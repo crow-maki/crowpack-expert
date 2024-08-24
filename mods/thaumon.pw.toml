@@ -1,0 +1,13 @@
+name = "Thaumon"
+filename = "thaumon-forge-2.3.0+1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2efd725ee708b510374a8d71d2ddd9a941bed743"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5492065
+project-id = 926511

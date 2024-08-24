@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "umv"
+	group: "199CC52C5EC11FA8"
+	id: "50EBCB81AF72845A"
+	order_index: 13
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [ ]
+	title: "UMV"
+}

@@ -1,0 +1,277 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "welcome"
+	group: ""
+	icon: "botania:cosmetic_questgiver_mark"
+	id: "411BF07785003BD7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to CrowPack Expert!"
+				""
+				"This modpack revolves around fusing a number of &9magic&r, &6tech&r, and &4adventure&r mods. Recipes have been changed from their defaults to provide a much more challenging experience."
+				""
+				"The quests branching off this one will provide some information about changes to the base game of Minecraft."
+				""
+				"&lAll quests are entirely optional, but highly recommended.&r"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:pumpkin_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0481B872184B5F12"
+			rewards: [{
+				id: "6D444B51178E0177"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3EDE5562E02F14CA"
+				title: "Welcome To CrowPack Expert!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0481B872184B5F12"]
+			description: [
+				"There are a number of different quest categories, indicated by their shapes."
+				""
+				"Hexagonal quests are &dintroductory quests&r -- they are likely the first quest in a chapter that you should complete."
+				""
+				"Rounded squares indicate that the quest is a &dprogression quest&r -- completing these will unlock further quests and move you forwards through the pack."
+				""
+				"Gear-shaped quests indicate that the quest is a &dfinal quest&r -- these mark the ends of chapters and may unlock other chapters."
+				""
+				"Circular quests are &doptional quests&r -- you can complete these at your leisure, though they're usually very helpful."
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "1F68772AC7270A74"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "4669E8D33F719ADE"
+				title: "Quest Categories"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0481B872184B5F12"]
+			description: ["This modpack includes &aSerene Seasons&r, which introduces some complications to crop growth and food production."]
+			icon: "regions_unexplored:apple_oak_sapling"
+			id: "08CCE1506E25B52D"
+			rewards: [{
+				id: "1EB232C2325313E7"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6244F1E5ABDE7ADC"
+				title: "Seasonal Content"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0481B872184B5F12"]
+			description: [
+				"This modpack uses modified GregTech ore generation. Ore veins take up 3x3 chunk sections and are filled with resources."
+				""
+				"Surface indicators are helpful for finding where particular veins are, but this scanner should help a bit more in the early game."
+			]
+			icon: "minecraft:iron_ore"
+			id: "5095937623142923"
+			rewards: [{
+				id: "139F8B26597E16B0"
+				item: {
+					Count: 1
+					id: "gtceu:prospector.hv"
+					tag: {
+						Charge: 1600000L
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E81C56E9F9AF8D1"
+				title: "Ore Generation"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0481B872184B5F12"]
+			description: [
+				"Glitchy black textures destroying the fabric of reality near your base? No problem! Use the handy-dandy &eRift Remover&r to save the pristine landscape."
+				""
+				"Or just let it annihilate the surroundings."
+			]
+			icon: {
+				Count: 1
+				id: "dimdoors:rift_remover"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "061319E76C9DC00F"
+			rewards: [{
+				id: "0396C0C357759BCA"
+				item: {
+					Count: 1
+					id: "dimdoors:rift_remover"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "\"What is this thing and how do I get rid of it?\""
+			tasks: [{
+				id: "0321220CE99092FB"
+				title: "Dimensional Rifts"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0481B872184B5F12"]
+			description: [
+				"Lunar events will affect how you spend your nights; blue moons, harvest moons..."
+				""
+				"...and of course, the dread &4Blood Moon&r."
+			]
+			icon: "ad_astra:moon_globe"
+			id: "12B39F21983E83FA"
+			tasks: [{
+				id: "1F4F0E69D5525D7A"
+				title: "Lunar Events"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0481B872184B5F12"]
+			description: [
+				"This world is full of dangerous beings. It's a strange day indeed when the undead are the &oleast&r of your worries."
+				""
+				"Take care when exploring, lest you become prey for these greater threats."
+			]
+			icon: "rats:corrupt_rat_skull"
+			id: "6B2717716798DBA2"
+			rewards: [{
+				id: "6BCC7D954F384E6D"
+				item: "iceandfire:bestiary"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61E3FC125A644DE3"
+				title: "Dangerous Beasts"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0481B872184B5F12"]
+			description: ["You may have noticed a little face between your health and your hunger bars. This is from &9Cold Sweat&r, which implements temperature to the world of Minecraft! Temperature is dependent on biome, season, and nearby blocks like lava - so you'll need to make sure your base is insulated if you plan on building in any inhospitable environments."]
+			icon: "cold_sweat:thermometer"
+			id: "3E7B4E5908C3114E"
+			rewards: [{
+				id: "4E22D6B3E52F61E8"
+				item: "cold_sweat:thermometer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "441423B3CDC0C8E0"
+				title: "Hot \\& Cold"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0481B872184B5F12"]
+			description: ["This is an expert modpack, so many recipes have been altered. They may use new GregTech materials, include ingredients from other mods, or simply have their ingredients moved around. This includes several vanilla items like buckets! When in doubt, check the recipes for items in JEI!"]
+			icon: "minecraft:writable_book"
+			id: "147D42491E929ACB"
+			rewards: [{
+				id: "772770531D088153"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			subtitle: "Please use it."
+			tasks: [{
+				id: "3EC862D83BB67970"
+				title: "JEI"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0481B872184B5F12"]
+			description: [
+				"It turns out that you really shouldn't &oonly&r eat baked potatoes."
+				""
+				"When in doubt, you can throw foods into this handy &6Lunchbox&r to help maximize your diet's diversity score. And you should try and cook meals whenever possible! There are plenty of cooking mods to help with that, and &aCooking For Blockheads&r kitchens make meal prep a breeze. "
+			]
+			icon: "minecraft:baked_potato"
+			id: "3F718D339E9C138B"
+			rewards: [{
+				id: "3CC812F9C793DC3D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 5
+						}
+					}
+					id: "solapplepie:lunchbag"
+				}
+				type: "item"
+			}]
+			subtitle: "Eat or be eaten!"
+			tasks: [{
+				id: "7FBBF310F0BCC422"
+				title: "Food"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0481B872184B5F12"]
+			description: ["By default, infinite water is disabled in this pack. There are several tools you'll obtain that will provide water, so eventually this won't be an issue - but until then, you'll need more than 2 buckets of water."]
+			icon: "minecraft:water_bucket"
+			id: "298811E39BC3E983"
+			tasks: [{
+				id: "495BA97B45A2F5FE"
+				title: "Where's My Water?"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	title: "Welcome!"
+}

@@ -1,13 +1,13 @@
 name = "OctoLib"
-filename = "octolib-1.20.1-0.3.jar"
+filename = "OctoLib-FORGE-0.4.2+1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "cc372b6bbb0fe541c64773c02c42a2a8c95fc84c"
+hash = "d39a7e4d7ebd4e6f427f5c0958b7e2080ba02800"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5115332
+file-id = 5644693
 project-id = 916747
